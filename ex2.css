@@ -1,0 +1,44 @@
+nav{
+    background-color: gray;
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.left-nav{
+    font-family: sans-serif;
+    color: white;
+    padding-left:10px ;
+    font-display: flex;
+}
+.right-nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.right-nav img{
+    display: none;
+}
+
+.nav-name{
+    padding: 10px;
+    color: white;
+}
+
+@media(max-width:768px){
+    .nav-name{
+        display: none;
+    }
+
+    .right-nav img{
+        display: flex;
+        width: 24px; 
+        height: 24px; 
+        margin-top: 10px;
+        padding: 10px;
+        
+    }
+    
+}
